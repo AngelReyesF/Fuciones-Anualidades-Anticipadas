@@ -32,10 +32,18 @@ tasa = round(r(VF = 6500, A = 500, n = 10),4)
 
 # Valor Actual (VA)
 ```
-Vactual = VA(A = 400, r = 0.02504, n = 10)
+V_actual = VA(A = 400, r = 0.02504, n = 10)
 ```
 
+# Anualidad (A)
+ ```
+Anualidad2 = A(VA = 3500, r =  0.02504, n = 10)
+```
 
+# Número de Pagos (n)
+ ```
+NPagos2 = n(VA = 3500, r =  0.02504, A = 400)
+```
 
 # tasa de interes VA
 ```
