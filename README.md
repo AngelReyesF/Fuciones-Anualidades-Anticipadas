@@ -4,6 +4,12 @@
 source("https://raw.githubusercontent.com/AngelReyesF/Fuciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 ```
 
+**FV: Valor Futuro (VF)
+PV: Valor Actual (VA)
+A: Anualidad o Pago periódico (A)
+r: Tasa de interés del periodo (r)
+n: Número de pagos o plazo (n)**
+
 # Valor Futuro (VF)
 ```
 Vfuturo = round(VF(A = 500, r = 0.05706, n = 10))
