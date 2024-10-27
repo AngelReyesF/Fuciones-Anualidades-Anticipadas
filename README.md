@@ -4,10 +4,10 @@
 source("https://raw.githubusercontent.com/AngelReyesF/Fuciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 ```
 
-**FV: Valor Futuro (VF)
-PV: Valor Actual (VA)
-A: Anualidad o Pago periódico (A)
-r: Tasa de interés del periodo (r)
+**FV: Valor Futuro (VF) <br>
+PV: Valor Actual (VA)<br>
+A: Anualidad o Pago periódico (A)<br>
+r: Tasa de interés del periodo (r)<br>
 n: Número de pagos o plazo (n)**
 
 # Valor Futuro (VF)
