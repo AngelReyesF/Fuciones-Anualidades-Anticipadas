@@ -1,7 +1,7 @@
 # Fuciones-Anualidades-Anticipadas
 
 ```
-source("https://raw.githubusercontent.com/AngelReyesF/MatematicasFinancieras/refs/heads/main/FormulasInteresSimple.")
+source("https://raw.githubusercontent.com/AngelReyesF/Fuciones-Anualidades-Anticipadas/refs/heads/main/FuncionesAnualidadesAnticipadas.R")
 ```
 VF
 ```
