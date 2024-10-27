@@ -10,22 +10,22 @@ A: Anualidad o Pago periódico (A)<br>
 r: Tasa de interés del periodo (r)<br>
 n: Número de pagos o plazo (n)**
 
-# Valor Futuro (VF)
+# Calculo para Valor Futuro (VF)
 ```
 Vfuturo = round(VF(A = 500, r = 0.05706, n = 10))
 ```
 
-# Anualidad (A)
+# Calculo para Anualidad (A) conociendo valor futuro
  ```
 Anualidad = round(A(VF = 6500, r = 0.05706, n = 10))
 ```
 
-# Número de Pagos (n)
+# Calculo para Número de Pagos (n) conociendo valor futuro
  ```
 NPagos = round(n(VF = 6500, r = 0.05706, A = 500))
 ```
 
-# tasa de interes (r) VF
+# Calculo para tasa de interes (r) conociendo valor futuro
 ```
 tasa = round(r(VF = 6500, A = 500, n = 10),4)
 ```
@@ -36,22 +36,22 @@ tasa = round(r(VF = 6500, A = 500, n = 10),4)
 
 
 
-# Valor Actual (VA)
+# Calculo para Valor Actual (VA)
 ```
 V_actual = round(VA(A = 400, r = 0.02504, n = 10))
 ```
 
-# Anualidad (A)
+# Calculo para Anualidad (A) conociendo valor actual
  ```
 Anualidad2 = round(A_(VA = 3500, r =  0.02504, n = 10))
 ```
 
-# Número de Pagos (n)
+# Calculo para Número de Pagos (n) conociendo valor actual
  ```
 NPagos2 = round(n_(VA = 3500, r =  0.02504, A = 400))
 ```
 
-# tasa de interes VA
+# Calculo para tasa de interes (r) conociendo valor actual
 ```
 tasa2 = round(r_(VA = 3500, A = 400, n = 10),4)
 ```
