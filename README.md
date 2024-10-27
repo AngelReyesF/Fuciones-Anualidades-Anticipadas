@@ -5,5 +5,5 @@ source("https://raw.githubusercontent.com/AngelReyesF/MatematicasFinancieras/ref
 ```
 
 ```
-VF = VFinal(A = 500, r = 0.05, n = 10)
+Vfuturo = VF(A = 500, r = 0.05, n = 10)
 ```
